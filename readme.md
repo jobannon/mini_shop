@@ -110,7 +110,7 @@ the application must be hosted on Heroku.
 Merchants are organizations/companies who sell items on our site (as opposed to individual people/users)
 
 ```
-[ ] done
+[x] done
 
 User Story 2, Merchant Index
 
@@ -120,7 +120,7 @@ Then I see the name of each merchant in the system
 ```
 
 ```
-[ ] done
+[x] done
 
 User Story 3, Merchant Show
 
@@ -132,7 +132,7 @@ Then I see the merchant with that id including the merchant's:
 - city
 - state
 - zip
-```
+``` 
 
 ```
 [ ] done
