@@ -1,0 +1,13 @@
+<h1> merchant show page </h1> 
+<strong><%= @merchant.name %></strong>
+<br>
+<%= @merchant.address %>
+<br>
+<%= @merchant.city %>
+<br>
+<%= @merchant.state %>
+<br>
+<%= @merchant.zip %>
+
+<%= link_to "Update This Merchant" ,"/merchants/#{@merchant.id}/edit" %>
+<%= link_to "Delete This Merchant" ,"/merchants/#{@merchant.id}", method: :delete %>
